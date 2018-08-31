@@ -3,7 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class ProcesoController extends CI_Controller {
 
-// Muestra la lista de todos los Procesos (con o sin filtro de busqueda)...... 
+// Muestra la lista de todos los Procesos (con o sin filtro de busqueda).{{{..... 
 
 public function observarProcesos(){
     $this->load->model('/ProcesoModel');
